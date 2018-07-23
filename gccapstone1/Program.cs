@@ -36,6 +36,7 @@ namespace gccapstone1
                     }
 
                     //since we know the word does not start with a vowel, but has one, it goes here to get converted to pig latin 
+                    //NOTE: will break if passed null or words with no vowels are passed to it.  Prob will also break with numbers. 
                     else
                     {
                         Console.WriteLine(StartsWithCons(lowerWords));
